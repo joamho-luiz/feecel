@@ -38,13 +38,13 @@ section#footer div {
     width: 4vh;
 }
 section#footer div.btn-canais {
-    background-image: url(../imagens/chama-o-fihsico.jpg);
+    background-image: url(./imagens/chama-o-fihsico.jpg);
 }
 section#footer div.btn-foco {
-    background-image: url(../imagens/chama-o-fihsico.jpg);
+    background-image: url(./imagens/chama-o-fihsico.jpg);
 }
 section#footer div.btn-tohpicos {
-    background-image: url(../imagens/chama-o-fihsico.jpg);
+    background-image: url(./imagens/chama-o-fihsico.jpg);
 }
 
 /*  < ( ° ) >  < ( ° ) >  < ( ° ) > */
@@ -139,14 +139,14 @@ div.botomhes img {
     width: 12vw;
 }
 div.botomhes div.curtir{
-    background-image: url("../imagens/chama-o-fihsico.jpg");
+    background-image: url("./imagens/chama-o-fihsico.jpg");
     background-size: contain;
 }
 div.botomhes div.comentar{
-    background-image: url("../imagens/chama-o-fihsico.jpg");
+    background-image: url("./imagens/chama-o-fihsico.jpg");
     background-size: contain;
 }
 div.botomhes div.compartilhar{
-    background-image: url("../imagens/chama-o-fihsico.jpg");
+    background-image: url("./imagens/chama-o-fihsico.jpg");
     background-size: contain;
 }
