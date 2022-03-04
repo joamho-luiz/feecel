@@ -5,11 +5,15 @@
 
 /* Remover margins indesejadas */
 * {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: transparent;
     box-sizing: border-box;
     color: #fff;
     font: 500 14px 'Montserrat', sans-serif, Arial;
     margin: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.98)
 }
 
 /* Saltos discretos na rolagem */
@@ -23,6 +27,7 @@ section {
 /* * Footer */
 section#footer {
     align-items: center;
+    background-color: #000;
     bottom: 0;
     display: flex;
     flex-flow: row nowrap;
@@ -52,7 +57,7 @@ section#footer div.btn-tohpicos {
 
 /* * Seções */
 section {
-    height: 96vh;
+    height: 92vh; /*todo */
     width: 100vw;
 }
 section:last-child {
@@ -84,8 +89,8 @@ header p {
 /* * Conteúdo */
 div.conteuhdo {
     display: grid;
-    grid-template-columns: 65vw 15vw;
-    height: 80vh;
+    grid-template-columns: 65vw 14vw;
+    /* height: 80vh; */
     justify-content: space-between;
 }
 
@@ -94,9 +99,10 @@ iframe {
     grid-column: 1 / span 2;
     /*Para manter a proporção do YouTube*/
     height: 56vw; 
-    max-height: 45vh;
-    max-width: 80vh;
+    max-height: 40vh;
+    max-width: 71vh;
     width: 100vw;
+    justify-self: center;
 }
 
 /* * Textos */
@@ -106,6 +112,7 @@ div.textos {
     display: flex;
     flex-flow: column nowrap;
     justify-content: end;
+    max-height: 40vh;
 }
 div.textos p:first-child {
     color: rgba(255, 255, 255, 0.8);
@@ -128,8 +135,8 @@ div.textos img {
 
 div.botomhes {
     display: grid;
-    grid-template-columns: 12vw;
-    grid-template-rows: 12vw 12vw 12vw 12vw;
+    grid-template-columns: 11vw;
+    grid-template-rows: 11vw 11vw 11vw 11vw;
     align-content: space-around;
     margin-bottom: 60px;
 }
