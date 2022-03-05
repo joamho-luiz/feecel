@@ -1,7 +1,7 @@
 /* Para ocultar a barra de rolagem. */ 
-::-webkit-scrollbar {       
+/* ::-webkit-scrollbar {       
     display: none;
-} /* Não funciona para o firefox*/ 
+} Não funciona para o firefox  */
 
 /* Remover margins indesejadas */
 * {
@@ -57,7 +57,7 @@ section#footer div.btn-tohpicos {
 
 /* * Seções */
 section {
-    height: 92vh; /*todo */
+    height: 94vh;
     width: 100vw;
 }
 section:last-child {
@@ -90,7 +90,7 @@ header p {
 div.conteuhdo {
     display: grid;
     grid-template-columns: 65vw 14vw;
-    /* height: 80vh; */
+    max-width: 83vh;
     justify-content: space-between;
 }
 
