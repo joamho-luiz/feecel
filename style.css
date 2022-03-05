@@ -103,6 +103,7 @@ iframe {
     max-width: 71vh;
     width: 100vw;
     justify-self: center;
+    margin-bottom: 1vh;
 }
 
 /* * Textos */
@@ -112,7 +113,7 @@ div.textos {
     display: flex;
     flex-flow: column nowrap;
     justify-content: end;
-    max-height: 40vh;
+    max-height: 55vh;
 }
 div.textos p:first-child {
     color: rgba(255, 255, 255, 0.8);
@@ -139,6 +140,7 @@ div.botomhes {
     grid-template-rows: 11vw 11vw 11vw 11vw;
     align-content: space-around;
     margin-bottom: 60px;
+    row-gap: 2vh;
 }
 div.botomhes img {
     border-radius: 16vh;
